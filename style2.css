@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    body{
+    background-color: lightgray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 30px;
+    color: gray;
+    padding: 10px;
+}
+.button{
+    background-color: gray;
+    border: none;
+    margin: 5px;
+    padding: 2px;
+}
+p{
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+}
+header{
+    background: linear-gradient(45deg, darkcyan,cyan);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    color: whitesmoke;
+}
+nav{
+    background-color: darkgrey;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: cadetblue;
+    color: cyan;
+}
+.home-section{
+    padding: 25px;
+}
+.places-section{
+    padding-bottom: 25px;
+}
+figure img{
+    display: inline-block;
+    width: 300px;
+}
+.our-packages figure {
+    display: inline-block;
+    width: 300px;
+    box-shadow:0 0 10px;
+    padding: 3px;
+    margin: 10px;
+}
+.our-packages figure figcaption{
+    font-size: 20px;
+}
+.main-footer{
+    font-size: 10px;
+    background-color:gray;
+    padding: 20px;
+    color: whitesmoke;
+  
+}
